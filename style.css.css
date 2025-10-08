@@ -1,0 +1,100 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  background-color: #f3f5f7;
+  color: #222;
+}
+
+header {
+  background-color: #00467f;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  position: relative;
+}
+
+.flag {
+  position: absolute;
+  top: 15px;
+  width: 70px;
+}
+
+.flag.left {
+  left: 25px;
+}
+
+.flag.right {
+  right: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.accordion {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordion-btn {
+  width: 100%;
+  background-color: #e23e4e;
+  color: white;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.accordion-btn:hover {
+  background-color: #c2303f;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #fff;
+  padding: 1rem;
+  animation: fadeIn 0.4s;
+}
+
+.accordion-content .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.accordion-content img {
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: #00467f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

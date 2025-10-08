@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discover Australia</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+  body {
+    font-family: "Baskervville SC", serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    color: #002f5f;
+  }
+
+  header {
+    background-color: #004b87;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+  }
+
+  header img.flag {
+    position: absolute;
+    top: 10px;
+    width: 90px;
+    height: auto;
+  }
+
+  header img.left-flag {
+    left: 25px;
+  }
+
+  header img.right-flag {
+    right: 25px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.1em;
+    margin-top: 8px;
+  }
+
+  main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  details {
+    background-color: #e53945;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  summary {
+    cursor: pointer;
+    padding: 18px 24px;
+    font-size: 1.2em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  summary:hover {
+    background-color: #c62828;
+  }
+
+  .content {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+  }
+
+  .content h3 {
+    font-size: 1.3em;
+    color: #004b87;
+    margin-top: 10px;
+  }
+
+  .content img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  footer {
+    background-color: #004b87;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <img src="img/flag.png" alt="Australian Flag" class="flag left-flag">
+    <img src="img/flag.png" alt="Australian Flag" class="flag right-flag">
+    <h1>Discover Australia</h1>
+    <p>Explore its culture, nature, and modernity</p>
+  </header>
+
+  <main>
+    <details>
+      <summary>🏝️ Tourist Attractions</summary>
+      <div class="content">
+        <h3>Sydney Opera House</h3>
+        <img src="img/sydney-opera.jpg" alt="Sydney Opera House">
+        <h3>Great Barrier Reef</h3>
+        <img src="img/great-barrier.jpg" alt="Great Barrier Reef">
+        <h3>Uluru (Ayers Rock)</h3>
+        <img src="img/ayers-rock.jpg" alt="Ayers Rock">
+      </div>
+    </details>
+
+    <details>
+      <summary>🚆 Transportation</summary>
+      <div class="content">
+        <h3>Australian Trains</h3>
+        <img src="img/tren.jpg" alt="Train in Australia">
+        <h3>Urban Buses</h3>
+        <img src="img/bus.jpg" alt="Bus in Australia">
+        <h3>Domestic Flights</h3>
+        <img src="img/avion.jpg" alt="Plane in Australia">
+      </div>
+    </details>
+
+    <details>
+      <summary>🏨 Accommodation</summary>
+      <div class="content">
+        <h3>Hotels</h3>
+        <img src="img/hotel.jpg" alt="Hotel in Australia">
+        <h3>Resorts</h3>
+        <img src="img/resort.jpg" alt="Resort in Australia">
+        <h3>Hostels</h3>
+        <img src="img/hostel.jpg" alt="Hostel in Australia">
+      </div>
+    </details>
+
+    <details>
+      <summary>🍽️ Restaurants</summary>
+      <div class="content">
+        <h3>Local Restaurants</h3>
+        <img src="img/restaurant.jpg" alt="Restaurant in Australia">
+        <h3>Australian Barbecue</h3>
+        <img src="img/barbecue.jpg" alt="Australian Barbecue">
+        <h3>Cafés</h3>
+        <img src="img/cafe.jpg" alt="Café in Australia">
+      </div>
+    </details>
+  </main>
+
+  <footer>
+    © 2025 School Project - Discover Australia
+  </footer>
+</body>
+</html>
